@@ -41,4 +41,3 @@ All inferential p-values produced by the reviewer-facing scripts are two-sided.
    - Two-sided Spearman rank correlations for teacher-to-student transfer and RNA/RPPA program associations.
    - Benjamini–Hochberg adjustment within the declared test families.
 
-The exact values, test families, grouping variables, and random seeds are stated locally inside each file rather than imported from a global configuration file.
