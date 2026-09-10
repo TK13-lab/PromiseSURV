@@ -1,0 +1,23 @@
+name: promise-surv-reviewer-code
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas=2.3.3
+  - numpy=2.5.0
+  - scipy=1.18.0
+  - scikit-learn=1.9.0
+  - lifelines=0.30.3
+  - pyarrow=24.0.0
+  - r-base
+  - r-ggplot2
+  - r-patchwork
+  - r-survminer
+  - r-ragg
+  - r-svglite
+  - r-readxl
+  - r-msigdbr
+  - bioconductor-fgsea
+  - bioconductor-biocparallel
+  - bioconductor-clusterprofiler
+  - bioconductor-complexheatmap

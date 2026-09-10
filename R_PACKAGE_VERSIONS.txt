@@ -1,0 +1,15 @@
+Versions used for the verified 2026-09-03 render:
+
+R: see outputs/verification/R_sessionInfo.txt after running the verification command
+ggplot2 4.0.2
+patchwork 1.3.2
+ragg 1.5.1
+svglite 2.2.2
+survival 3.5-8
+survminer 0.5.2
+ComplexHeatmap 2.26.1
+msigdbr 26.1.0
+fgsea 1.36.2
+BiocParallel 1.44.0
+clusterProfiler 4.18.4
+readxl 1.4.5
