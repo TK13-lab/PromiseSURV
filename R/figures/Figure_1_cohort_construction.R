@@ -1,7 +1,5 @@
 # Purpose: Reproduce manuscript Figure 1 (cohort construction and modality availability).
-# Inputs: outputs/figures/figure2/figure2_cohort_construction_panel_data.csv
-# Outputs: the exact 400-dpi Figure 1 PNG plus vector PDF/SVG.
-# Usage: Rscript R/figures/Figure_1_cohort_construction.R [--input-root=PATH] [--output-dir=PATH]
+
 
 main <- function() {
   args <- commandArgs(trailingOnly = TRUE)
