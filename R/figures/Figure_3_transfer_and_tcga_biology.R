@@ -1,6 +1,4 @@
 # Purpose: Reproduce manuscript Figure 3 (risk transfer and TCGA biology).
-# Every panel contains its final font, geom, legend, and layout values inline.
-# Usage: Rscript R/figures/Figure_3_transfer_and_tcga_biology.R [--input-root=PATH] [--output-dir=PATH]
 
 main <- function() {
   args <- commandArgs(trailingOnly = TRUE)
