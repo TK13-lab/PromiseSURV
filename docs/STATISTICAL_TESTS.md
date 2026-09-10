@@ -23,7 +23,7 @@ All inferential p-values produced by the reviewer-facing scripts are two-sided.
 ## Transparent Python recomputations
 
 1. Internal CPTAC model benchmark
-   - Ten stratified 70/30 train/test splits, seeds 20260623–20260632.
+   - Ten stratified 70/30 train/test splits.
    - Penalized Cox models: penalizer 0.50 and L1 ratio 0.00.
    - RNA+clinical distilled student: ridge alpha 10.0.
    - Fixed-split patient-level C-index uncertainty: 2,000 nonparametric bootstrap samples and 95% percentile intervals.
