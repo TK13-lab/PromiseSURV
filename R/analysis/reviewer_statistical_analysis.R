@@ -1,8 +1,7 @@
 main <- function() {
   # Purpose: Generate reviewer-requested cohort, uncertainty, baseline-comparison,
   # and inferential-statistics tables from locked PROMISE-Surv artifacts.
-  # Usage:
-  #   Rscript R/analysis/reviewer_statistical_analysis.R --input-root=PATH --tcga-cdr-file=FILE
+ 
 
   args_file <- commandArgs(FALSE)
   file_arg <- args_file[grepl("^--file=", args_file)]
