@@ -1,4 +1,4 @@
-# PROMISE-Surv reviewer code
+# PROMISE-Surv code
 
 This folder contains the concise code package for reproducing revised manuscript Figures 1–6 and auditing the main model/statistical benchmarks.
 
