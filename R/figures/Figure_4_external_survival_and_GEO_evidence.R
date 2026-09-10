@@ -1,6 +1,5 @@
 # Purpose: Reproduce manuscript Figure 4 (TCGA survival and GEO evidence).
-# Panel A, B, and C use explicit final plotting values; no shared setup file is sourced.
-# Usage: Rscript R/figures/Figure_4_external_survival_and_GEO_evidence.R [--input-root=PATH] [--output-dir=PATH]
+
 
 main <- function() {
   args <- commandArgs(trailingOnly = TRUE)
