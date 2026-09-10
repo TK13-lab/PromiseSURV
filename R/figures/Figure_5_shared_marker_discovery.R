@@ -1,6 +1,5 @@
 # Purpose: Reproduce manuscript Figure 5 (shared marker discovery and biology).
-# Inputs: Task 6 shared marker discovery outputs and Task 6/6b biology tables.
-# Usage: Rscript R/figures/Figure_5_shared_marker_discovery.R [--input-root=PATH] [--output-dir=PATH]
+
 
 main <- function() {
   args <- commandArgs(trailingOnly = TRUE)
