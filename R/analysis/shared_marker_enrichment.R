@@ -1,9 +1,7 @@
 main <- function() {
   # Purpose: Run reproducible enrichment/GSEA on the Figure 5/6 retained
   # CPTAC-derived TCGA RNA gene pool.
-  # Inputs: outputs/task6/shared_markers/task6_shared_marker_overlap_membership.csv
-  # Outputs: outputs/task6/shared_markers/task6_shared_marker_enrichment_*.csv
-  # Usage: Rscript R/analysis/shared_marker_enrichment.R [--input-root=PATH]
+
 
   command_args <- commandArgs(trailingOnly = TRUE)
   argument_value <- function(prefix, default) {
