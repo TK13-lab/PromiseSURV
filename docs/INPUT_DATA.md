@@ -1,11 +1,9 @@
 # Input data contract
 
-This repository is intentionally code-only. Raw CPTAC, TCGA, and GEO data are not duplicated. Pass the root of the frozen analysis tree with `--input-root=PATH` (R) or `--input-root PATH` (Python). The tree must retain the relative paths below.
+This repository is intentionally code-only. Raw CPTAC, TCGA, and GEO data are not duplicated. 
 
 ## Figure scripts
 
-- Figure 1: `outputs/figures/figure2/figure2_cohort_construction_panel_data.csv`
-- Figure 2: no data file; all workflow nodes, connectors, coordinates, fonts, and colors are explicit in the script.
 - Figure 3:
   - `outputs/task6/task6_biology_audit.csv`
   - `outputs/task6/cptac/task6_cptac_teacher_student_risk_scores.csv`
