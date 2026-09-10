@@ -1,6 +1,5 @@
 # Purpose: Reproduce manuscript Figure 2 (PROMISE-Surv workflow).
-# All node coordinates, sizes, colors, arrows, and text sizes are explicit.
-# Usage: Rscript R/figures/Figure_2_PROMISE_Surv_framework.R [--output-dir=PATH]
+
 
 main <- function() {
   args <- commandArgs(trailingOnly = TRUE)
