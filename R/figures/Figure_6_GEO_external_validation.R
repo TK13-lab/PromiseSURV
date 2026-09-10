@@ -1,6 +1,5 @@
 # Purpose: Reproduce manuscript Figure 6 (locked GEO validation).
-# Every panel states its final text, dot, legend, and layout values inline.
-# Usage: Rscript R/figures/Figure_6_GEO_external_validation.R [--input-root=PATH] [--output-dir=PATH]
+
 
 main <- function() {
   args <- commandArgs(trailingOnly = TRUE)
