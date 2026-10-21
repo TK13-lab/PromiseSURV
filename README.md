@@ -13,7 +13,6 @@ conda activate promise-surv-reviewer-code
 
 ## Figures
 
-Figures 1 and 2 were prepared in Microsoft PowerPoint and have no corresponding R scripts in this repository.
 
 R scripts are provided for Figures 3–6, covering biological transfer, external survival evaluation, shared-marker discovery and GEO validation. These scripts use Arial and export raster and vector figures.
 
