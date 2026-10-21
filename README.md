@@ -1,6 +1,6 @@
 # PROMISE-Surv
 
-Analysis and figure code for PROMISE-Surv. Scripts operate on the frozen analysis inputs described in [INPUT_DATA.md](docs/INPUT_DATA.md); downloading the public source datasets alone does not recreate that input tree. Raw data, fitted models and generated outputs are excluded.
+Analysis and figure code for PROMISE-Surv. See the [analysis overview](docs/README.md) for the scope and reproducibility requirements. Raw data, fitted models and generated outputs are excluded.
 
 ## Environment
 
@@ -29,15 +29,6 @@ Rscript R/figures/Figure_1_cohort_construction.R --input-root=/path/to/frozen_an
 Rscript R/figures/Figure_2_PROMISE_Surv_framework.R
 ```
 
-The Figure 1 input table can be rebuilt separately:
-
-```bash
-python python/figure_inputs/Figure_1_build_panel_data.py \
-  --input-root /path/to/frozen_analysis \
-  --output outputs/figures/figure2/figure2_cohort_construction_panel_data.csv
-Rscript R/figures/Figure_1_cohort_construction.R --input-root=.
-```
-
 `R/analysis/shared_marker_enrichment.R --input-root=PATH` regenerates the enrichment intermediates used by Figures 5–6.
 
 ## Statistical results
@@ -61,5 +52,5 @@ Additional computations accept `--input-root PATH`:
 
 For an installation check, the internal Python benchmark offers `--quick-check` (one split and 20 bootstrap resamples). These settings are insufficient for manuscript estimates.
 
-See [statistical methods and seeds](docs/STATISTICAL_TESTS.md), [source accessions and retrieval dates](docs/INPUT_DATA.md#source-data), and [verification scope](docs/VERIFICATION.md).
+See the [analysis overview](docs/README.md) and the manuscript's Supplementary Methods for methodological context and reproducibility considerations.
 
