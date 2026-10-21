@@ -1,0 +1,11 @@
+outputs/
+data/
+data_links/
+cache/
+.env
+.venv*/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.DS_Store
